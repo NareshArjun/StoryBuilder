@@ -1,0 +1,24 @@
+.displaycontainer {
+  padding: 1em 0;
+  height: 100%;
+  background: rgb(241, 241, 241);
+  overflow-y: auto;
+}
+.displayflexcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.displayslide {
+  width: 80%;
+  height: 300px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  background-color: white;
+}
+.displayslide:last-child {
+  margin-bottom: 0;
+}

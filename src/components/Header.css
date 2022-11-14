@@ -1,0 +1,17 @@
+.headercontainer {
+  height: 10vh;
+  border-bottom: 1px solid #e5e5e5;
+}
+.headerflexlayout {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.headercolumn {
+  width: 50%;
+}
+.headerbutton {
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+}
